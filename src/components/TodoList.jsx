@@ -261,13 +261,13 @@ function TodoList() {
           completedTodos.map((todo, index) => (
             <div
               key={index}
-              className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-2 border-gray-900 bg-transparent rounded-lg shadow-md my-2 mx-4 sm:mx-12 md:mx-16 lg:mx-24 p-2"
+              className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-2 border-gray-900 bg-transparent rounded-lg shadow-md my-2 mx-16 sm:mx-12 md:mx-16 lg:mx-24 p-2"
             >
               <div className="px-4 sm:px-4 md:px-8 w-full">
                 <h3 className="text-cyan-700 mt-1 text-xl sm:text-2xl md:text-3xl font-bold break-words ">
                   {todo.title}
                 </h3>
-                <p className="text-cyan-900 text-base sm:text-lg font-bold break-words whitespace-break-spaces">
+                <p className="text-cyan-900 text-base sm:text-lg font-bold break-words ">
                   {todo.description}
                 </p>
                 <p className="text-cyan-900 mt-1 text-xs sm:text-sm font-bold">
