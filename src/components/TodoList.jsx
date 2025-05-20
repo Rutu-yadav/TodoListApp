@@ -137,7 +137,7 @@ function TodoList() {
     <div
       className="bg-gray-400 shadow-md rounded-xl px-8 pt-4 pb-8 mb-4 flex flex-col"
       style={{
-        backgroundImage: "url('/images/todo1.jpg')",
+        backgroundImage: "url('/images/todo1.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
