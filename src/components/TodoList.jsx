@@ -240,14 +240,17 @@ function TodoList() {
                   <AiOutlineEdit
                     className="hover:text-cyan-500 cursor-pointer text-gray-800"
                     onClick={() => handleEdit(index)}
+                    title="Edit"
                   />
                   <AiOutlineDelete
                     className="mx-4 hover:text-cyan-500 cursor-pointer text-gray-800"
                     onClick={() => hadleDelete(index)}
+                    title="Delete"
                   />
                   <AiOutlineCheckCircle
                     className="hover:text-cyan-500 cursor-pointer text-gray-800"
                     onClick={() => handleCompleted(index)}
+                    title="Mark as Completed"
                   />
                 </div>
               </div>
@@ -278,6 +281,7 @@ function TodoList() {
                 <AiOutlineDelete
                   className="mx-4 hover:text-cyan-500 cursor-pointer text-gray-800"
                   onClick={() => handleDeleteCompleted(index)}
+                  title="Delete Completed Task"
                 />
               </div>
             </div>
